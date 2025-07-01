@@ -19,33 +19,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in
-              <i>
-                <b className="purple"> Javascript, React, Angular & frontend techs. </b>
-              </i>
+              I’m a passionate frontend developer with 2+ years of experience
+              building scalable, user-focused web applications.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b>
-              </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              My core strengths lie in
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  JavaScript, React.js, Next.js, and TypeScript.
                 </b>
               </i>
-              &nbsp; like
+              <br />
+              <br />
+              I love crafting intuitive interfaces, building reusable
+              components, and integrating with modern APIs.
+              <br />
+              <br />
+              I’m currently completing my Master's in IT at QUT and actively
+              seeking
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> remote roles across Australia</b>
+              </i>{" "}
+              or
+              <i>
+                <b className="purple">
+                  {" "}
+                  onsite/hybrid opportunities in Brisbane
+                </b>
               </i>
+              .
             </p>
           </Col>
           <Col md={4} className="myAvtar">
