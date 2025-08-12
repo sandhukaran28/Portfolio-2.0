@@ -13,6 +13,7 @@ import {
   SiFirebase,
   SiNextdotjs,
   SiGraphql,
+  SiAwsamplify,
 } from "react-icons/si";
 
 function Techstack() {

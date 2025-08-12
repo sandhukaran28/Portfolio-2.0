@@ -13,50 +13,39 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I’m a passionate frontend developer with 2+ years of experience
-              building scalable, user-focused web applications.
-              <br />
-              <br />
-              My core strengths lie in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, React.js, Next.js, and TypeScript.
-                </b>
-              </i>
-              <br />
-              <br />
-              I love crafting intuitive interfaces, building reusable
-              components, and integrating with modern APIs.
-              <br />
-              <br />
-              I’m currently completing my Master's in IT at QUT and actively
-              seeking
-              <i>
-                <b className="purple"> remote roles across Australia</b>
-              </i>{" "}
-              or
-              <i>
-                <b className="purple">
-                  {" "}
-                  onsite/hybrid opportunities in Brisbane
-                </b>
-              </i>
-              .
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
+       <Row>
+  <Col md={8} className="home-about-description">
+    <h1 style={{ fontSize: "2.6em" }}>
+      LET ME <span className="purple"> INTRODUCE </span> MYSELF
+    </h1>
+    <p className="home-about-body">
+      I’m a <b className="purple">Full Stack Engineer</b> with 2.5+ years of experience
+      designing and delivering <b className="purple">scalable, user-focused web and mobile applications</b>.
+      <br />
+      <br />
+      My core expertise includes
+      <i>
+        <b className="purple"> React.js, Next.js, TypeScript, and Node.js</b>
+      </i>{" "}
+      — along with hands-on experience in API integrations, backend logic, and database management.
+      <br />
+      <br />
+      I enjoy crafting <b className="purple">intuitive, high-performance interfaces</b>,
+      building reusable components, and delivering features that create measurable product impact.
+      <br />
+      <br />
+      Currently completing my <b className="purple">Master’s in IT at QUT</b> (graduating Dec 2025),
+      and actively seeking <b className="purple">full-time opportunities</b> with modern product teams
+      where I can blend <b className="purple">UI/UX craftsmanship</b> with scalable engineering.
+    </p>
+  </Col>
+  <Col md={4} className="myAvtar">
+    <Tilt>
+      <img src={myImg} className="img-fluid" alt="avatar" />
+    </Tilt>
+  </Col>
+</Row>
+
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
