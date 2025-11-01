@@ -9,45 +9,63 @@ import {
 } from "react-icons/di";
 import {
   SiTypescript,
-  SiTailwindcss,
-  SiFirebase,
   SiNextdotjs,
+  SiTailwindcss,
   SiGraphql,
   SiAwsamplify,
+  SiDocker,
+  SiPostgresql,
 } from "react-icons/si";
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <Row
+      style={{
+        justifyContent: "center",
+        paddingBottom: "50px",
+      }}
+      aria-label="Technology stack icons"
+    >
+      {/* Frontend */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="JavaScript">
         <DiJavascript1 />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="TypeScript">
         <SiTypescript />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="React">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="Next.js">
         <SiNextdotjs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="Tailwind CSS">
         <SiTailwindcss />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+
+      {/* Backend */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="Node.js">
         <DiNodejs />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="GraphQL">
+        <SiGraphql />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="MongoDB">
         <DiMongodb />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+      <Col xs={4} md={2} className="tech-icons" aria-label="PostgreSQL">
+        <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+
+      {/* Cloud & Tools */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="AWS">
+        <SiAwsamplify />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Docker">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Git">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiGraphql />
       </Col>
     </Row>
   );

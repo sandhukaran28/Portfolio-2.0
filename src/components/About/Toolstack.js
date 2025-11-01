@@ -7,27 +7,39 @@ import {
   SiVercel,
   SiGithub,
   SiFigma,
+  SiNotion,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+    <Row
+      style={{ justifyContent: "center", paddingBottom: "50px" }}
+      aria-label="Developer tools and platforms"
+    >
+      {/* Development */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="Visual Studio Code">
         <SiVisualstudiocode />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="Postman">
         <SiPostman />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="GitHub">
         <SiGithub />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+
+      {/* Collaboration */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="Slack">
         <SiSlack />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons" aria-label="Notion">
+        <SiNotion />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Figma">
         <SiFigma />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+
+      {/* Deployment */}
+      <Col xs={4} md={2} className="tech-icons" aria-label="Vercel">
         <SiVercel />
       </Col>
     </Row>

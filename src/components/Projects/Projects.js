@@ -8,19 +8,45 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Projects</strong>
+        <h1 className="project-heading" aria-label="Projects">
+          Recent <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          A selection of projects I've worked on, showcasing frontend development, UI design, and full-stack work.
+          A curated set of builds highlighting frontend craft, full-stack delivery, and performance work.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="EventHive"
-              description="Web + mobile event management platform built using React and React Native. Includes bookings, login, and admin panel."
+              title="Noteflix – Document → Video"
+              description="Full-stack Next.js + Node system that converts documents into narrated videos. AWS Lambda/S3 pipeline with async rendering; designed for scalable media throughput."
+              ghLink="https://github.com/sandhukaran28" // add repo if public
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="ESGagent.ai – Compliance Dashboards"
+              description="Production dashboards built with Vue 3 + TypeScript + Node/Mongo. Optimized data flows and rendering for responsive, real-time ESG analytics."
+              // demoLink can point to a staging/landing if available
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="CisoZen – Risk Automation"
+              description="Automated multi-step cybersecurity risk workflows using Python + Node with REST integrations; milestone orchestration for evaluate → register flow."
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="EventHive (Web + Mobile)"
+              description="Event management platform (React/Next + React Native). Auth, bookings, admin dashboard; API integration and reusable UI components."
               ghLink="https://github.com/sandhukaran28/EventHive-frontend"
             />
           </Col>
@@ -28,33 +54,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="CisoZen Risk Automation"
-              description="Integrated backend workflows for a cybersecurity risk tool using Python and REST APIs to automate multi-step milestone tracking."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="SaaS Wellness Dashboard (Remote Startup)"
-              description="Led frontend development for a wellness platform using Next.js, Tailwind CSS, and GraphQL. Features onboarding, profile modals, and dashboards."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Ecommerce Shipping Solution"
-              description="Angular-based web platform built for a Canadian client. Includes real-time shipping tracking and admin control features."
-              demoLink="https://www.eshipper.com/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="Real-Time Flood Alert System"
-              description="React app for flood risk alerts using map overlays and sensor API integration. Designed for fast visual communication and response."
+              title="Real-Time Flood Alert"
+              description="React + Node + MongoDB with map overlays and sensor APIs. Built for rapid situational awareness and clear risk visualization."
               demoLink="https://www.befiqr.in/app/"
             />
           </Col>
@@ -63,13 +64,17 @@ function Projects() {
             <ProjectCard
               isBlog={false}
               title="Grabhub – Food Order App"
-              description="Full-stack food ordering app using Node.js, Express, MongoDB, and React. Features cart, login, menu system, and admin panel."
+              description="MERN stack app (Node/Express, MongoDB, React). Cart, auth, menu, and admin flows; pragmatic full-stack patterns."
               ghLink="https://github.com/sandhukaran28/Grabhub"
             />
           </Col>
         </Row>
 
-        <h2 className="project-subheading" style={{ color: "#fff", marginTop: "2rem" }}>
+        <h2
+          className="project-subheading"
+          style={{ color: "#fff", marginTop: "2rem" }}
+          aria-label="Freelance work"
+        >
           Freelance Projects
         </h2>
 
@@ -77,8 +82,8 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="KK Spinners (Client Project)"
-              description="Product showcase website for a yarn manufacturer. Built using React.js with a custom layout and product sections."
+              title="KK Spinners (Client)"
+              description="Product showcase site for a yarn manufacturer. React build with custom layout and product categorization."
               demoLink="https://kkspinners.in/"
             />
           </Col>
@@ -86,15 +91,15 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="Roamer Technologies (Client Project)"
-              description="Frontend website for a Dubai-based services company. Built in React and deployed via Netlify."
+              title="Roamer Technologies (Client)"
+              description="Marketing site for a Dubai-based services company. React front end, deployed on Netlify."
               demoLink="https://roamer-technologies.netlify.app/"
             />
           </Col>
         </Row>
       </Container>
 
-      <div style={{ height: "8.5vh" }}></div>
+      <div style={{ height: "8.5vh" }} />
     </Container>
   );
 }
