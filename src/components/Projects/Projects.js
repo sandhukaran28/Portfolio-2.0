@@ -18,54 +18,46 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="Noteflix – Document → Video"
-              description="Full-stack Next.js + Node system that converts documents into narrated videos. AWS Lambda/S3 pipeline with async rendering; designed for scalable media throughput."
-              ghLink="https://github.com/sandhukaran28" // add repo if public
+              title="Noteflix — Document → Video"
+              description="Converts documents into narrated videos via an async media pipeline. Built for scalable throughput with background processing and AWS storage."
+              ghLink="https://github.com/sandhukaran28/Podcast-Generation" // replace with repo if public
+              tags={["Next.js", "Node.js", "AWS"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="ESGagent.ai – Compliance Dashboards"
-              description="Production dashboards built with Vue 3 + TypeScript + Node/Mongo. Optimized data flows and rendering for responsive, real-time ESG analytics."
-              // demoLink can point to a staging/landing if available
+              title="CisoZen — Risk Automation"
+              description="Automated milestone-based cybersecurity risk workflows (evaluate → register) with reliable orchestration, validation, and REST integrations."
+              ghLink="https://github.com/sandhukaran28/Cisozen-AI"
+              tags={["Python", "Node.js", "REST"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="CisoZen – Risk Automation"
-              description="Automated multi-step cybersecurity risk workflows using Python + Node with REST integrations; milestone orchestration for evaluate → register flow."
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              isBlog={false}
-              title="EventHive (Web + Mobile)"
-              description="Event management platform (React/Next + React Native). Auth, bookings, admin dashboard; API integration and reusable UI components."
+              title="EventHive — Web + Mobile"
+              description="Event management platform with auth, bookings, admin dashboard, and reusable UI components. Shared backend across web + React Native app."
               ghLink="https://github.com/sandhukaran28/EventHive-frontend"
+              tags={["React", "Next.js", "React Native", "Node.js"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="Real-Time Flood Alert"
-              description="React + Node + MongoDB with map overlays and sensor APIs. Built for rapid situational awareness and clear risk visualization."
+              title="Flood Alert — Real-Time Monitoring"
+              description="Realtime monitoring dashboard with map overlays and sensor APIs for situational awareness and clear risk visualisation."
               demoLink="https://www.befiqr.in/app/"
+              tags={["React", "Node.js", "MongoDB"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="Grabhub – Food Order App"
-              description="MERN stack app (Node/Express, MongoDB, React). Cart, auth, menu, and admin flows; pragmatic full-stack patterns."
+              title="Grabhub — Food Order App"
+              description="Food ordering app with cart, auth, menu browsing, and admin workflows. Built end-to-end with clean full-stack patterns."
               ghLink="https://github.com/sandhukaran28/Grabhub"
+              tags={["React", "Node/Express", "MongoDB"]}
             />
           </Col>
         </Row>
@@ -81,19 +73,19 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="KK Spinners (Client)"
-              description="Product showcase site for a yarn manufacturer. React build with custom layout and product categorization."
+              title="KK Spinners — Client Website"
+              description="Product showcase site with custom layout and category-based browsing for a yarn manufacturer."
               demoLink="https://kkspinners.in/"
+              tags={["React", "Netlify"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              isBlog={false}
-              title="Roamer Technologies (Client)"
-              description="Marketing site for a Dubai-based services company. React front end, deployed on Netlify."
+              title="Roamer Technologies — Client Website"
+              description="Responsive marketing site for a services company, built and deployed with a lightweight React setup."
               demoLink="https://roamer-technologies.netlify.app/"
+              tags={["React", "Netlify"]}
             />
           </Col>
         </Row>
