@@ -28,12 +28,6 @@ function Toolstack() {
       </Col>
 
       {/* Collaboration */}
-      <Col xs={4} md={2} className="tech-icons" aria-label="Slack">
-        <SiSlack />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="Notion">
-        <SiNotion />
-      </Col>
       <Col xs={4} md={2} className="tech-icons" aria-label="Figma">
         <SiFigma />
       </Col>

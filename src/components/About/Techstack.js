@@ -19,55 +19,65 @@ import {
 
 function Techstack() {
   return (
-    <Row
-      style={{
-        justifyContent: "center",
-        paddingBottom: "50px",
-      }}
-      aria-label="Technology stack icons"
-    >
-      {/* Frontend */}
-      <Col xs={4} md={2} className="tech-icons" aria-label="JavaScript">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="TypeScript">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="React">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="Next.js">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="Tailwind CSS">
-        <SiTailwindcss />
-      </Col>
+    <>
+      {/* Core Technologies */}
+      <h3 className="project-heading">
+        Core <strong className="purple">Technologies</strong>
+      </h3>
 
-      {/* Backend */}
-      <Col xs={4} md={2} className="tech-icons" aria-label="Node.js">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="GraphQL">
-        <SiGraphql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="MongoDB">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="PostgreSQL">
-        <SiPostgresql />
-      </Col>
+      <Row
+        style={{ justifyContent: "center", paddingBottom: "40px" }}
+        aria-label="Core technology stack"
+      >
+        <Col xs={4} md={2} className="tech-icons" aria-label="JavaScript">
+          <DiJavascript1 />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="TypeScript">
+          <SiTypescript />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="React">
+          <DiReact />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Next.js">
+          <SiNextdotjs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Node.js">
+          <DiNodejs />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="AWS">
+          <SiAwsamplify />
+        </Col>
+      </Row>
 
-      {/* Cloud & Tools */}
-      <Col xs={4} md={2} className="tech-icons" aria-label="AWS">
-        <SiAwsamplify />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="Docker">
-        <SiDocker />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons" aria-label="Git">
-        <DiGit />
-      </Col>
-    </Row>
+      {/* Additional Experience */}
+      <h3 className="project-heading">
+        Additional <strong className="purple">Experience</strong>
+      </h3>
+
+      <Row
+        style={{ justifyContent: "center", paddingBottom: "50px" }}
+        aria-label="Additional technologies"
+      >
+        <Col xs={4} md={2} className="tech-icons" aria-label="Tailwind CSS">
+          <SiTailwindcss />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="GraphQL">
+          <SiGraphql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="MongoDB">
+          <DiMongodb />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="PostgreSQL">
+          <SiPostgresql />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Docker">
+          <SiDocker />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Git">
+          <DiGit />
+        </Col>
+      </Row>
+    </>
   );
 }
 
