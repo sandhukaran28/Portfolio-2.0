@@ -6,7 +6,7 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Full-Stack Engineer (Frontend-leaning)",
+          "Full-Stack Engineer",
           "Building with React, Next.js & TypeScript",
           "API-driven systems with Node.js & AWS",
           "Performance-focused, scalable UI",
