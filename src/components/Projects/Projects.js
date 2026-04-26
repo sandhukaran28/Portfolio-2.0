@@ -20,7 +20,8 @@ function Projects() {
             <ProjectCard
               title="Noteflix — Document → Video"
               description="Converts documents into narrated videos via an async media pipeline. Built for scalable throughput with background processing and AWS storage."
-              ghLink="https://github.com/sandhukaran28/Podcast-Generation" // replace with repo if public
+              ghLink="https://github.com/sandhukaran28/Noteflix-App" // replace with repo if public
+              demoLink="https://noteflix-app.vercel.app/"
               tags={["Next.js", "Node.js", "AWS"]}
             />
           </Col>
