@@ -11,35 +11,39 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              A BIT ABOUT ME
-            </h1>
+            <h1 style={{ fontSize: "2.6em" }}>A BIT ABOUT ME</h1>
 
             <p className="home-about-body">
-              I’m a <b className="purple">Full-Stack Engineer</b>{" "}
-              (frontend-leaning) building production web apps with a focus on
-              performance, reliability, and clean UI architecture.
+              I'm a <b className="purple">Full-Stack Engineer</b> with 3+ years
+              building{" "}
+              <b className="purple">
+                AI-powered, production-grade web applications
+              </b>{" "}
+              across SaaS, compliance, health-tech, and government domains.
+              <br />
+              <br />I currently build AI agents at{" "}
+              <b className="purple">ESGAgent</b> in Brisbane, where I designed a
+              pipeline using the <b className="purple">Claude API</b> that
+              processes <b className="purple">50,000+ documents</b> and reduces
+              months of manual work to 2-3 hours.
               <br />
               <br />
               Core stack:{" "}
               <i>
                 <b className="purple">
-                  React, Next.js, TypeScript, Node.js, AWS
+                  React, Vue 3, TypeScript, Node.js, GraphQL, AWS
                 </b>
               </i>{" "}
-              — plus experience integrating{" "}
-              <b className="purple">REST/GraphQL</b>, authentication, and
-              scalable data flows.
-              <br />
-              <br />I care about <b className="purple">performance & DX</b>:
-              code-splitting, caching, component design systems, and predictable
-              state management — shipping faster dashboards and smoother
-              real-time UX.
+              — plus hands-on experience with{" "}
+              <b className="purple">
+                LLM integrations, Claude Code, and GitHub Copilot
+              </b>{" "}
+              as a genuine part of daily development.
               <br />
               <br />
               Based in <b className="purple">Brisbane, Australia</b>. Open to{" "}
-              <b className="purple">frontend / full-stack</b> roles (remote or
-              hybrid).
+              <b className="purple">remote full-stack or frontend</b> roles
+              globally.
             </p>
           </Col>
 

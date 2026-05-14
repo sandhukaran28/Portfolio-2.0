@@ -7,33 +7,36 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-       <p style={{ textAlign: "justify" }}>
-  Hi, I’m <span className="purple">Karan Sandhu</span>, a Brisbane-based{" "}
-  <b className="purple">Full-Stack Engineer</b> with{" "}
-  <b className="purple">2+ years of experience</b> building and optimizing{" "}
-  <b className="purple">scalable, production-grade web applications</b>.
-  <br />
-  <br />
-  My primary stack includes{" "}
-  <b className="purple">
-    React, Next.js, TypeScript, Node.js, and AWS
-  </b>
-  , with additional experience in{" "}
-  <b className="purple">Vue, Angular, and React Native</b>. I focus on crafting{" "}
-  <b className="purple">performant, accessible, and maintainable user interfaces</b>{" "}
-  that improve real product outcomes.
-  <br />
-  <br />
-  I recently completed my{" "}
-  <b className="purple">Master of Information Technology</b> at{" "}
-  <b className="purple">Queensland University of Technology (QUT)</b>, where I
-  strengthened my foundation in cloud computing, software architecture, and
-  applied AI.
-  <br />
-  <br />
-  Outside of work, I enjoy:
-</p>
-
+          <p style={{ textAlign: "justify" }}>
+            Hi, I'm <span className="purple">Karan Sandhu</span>, a
+            Brisbane-based <b className="purple">Full-Stack Engineer</b> with{" "}
+            <b className="purple">3+ years of experience</b> building{" "}
+            <b className="purple">
+              AI-powered, production-grade web applications
+            </b>
+            .
+            <br />
+            <br />I currently build AI agents and automation pipelines at{" "}
+            <b className="purple">ESGAgent</b>, where I designed a system using
+            the <b className="purple">Claude API</b> that processes{" "}
+            <b className="purple">50,000+ documents</b> and reduces months of
+            manual work to 2-3 hours. My core stack is{" "}
+            <b className="purple">React, Vue 3, TypeScript, Node.js, and AWS</b>
+            , with experience across{" "}
+            <b className="purple">
+              Angular, Next.js, React Native, and GraphQL
+            </b>
+            .
+            <br />
+            <br />I use <b className="purple">
+              Claude Code and GitHub Copilot
+            </b>{" "}
+            as a genuine part of how I build — not just for autocomplete but for
+            thinking through problems faster.
+            <br />
+            <br />
+            Outside of work, I enjoy:
+          </p>
 
           <ul>
             <li className="about-activity">
@@ -48,7 +51,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            “I care about building software that’s reliable, usable, and easy to maintain.”
+            "I build systems that work at scale and keep getting better."
           </p>
           <footer className="blockquote-footer">Karan</footer>
         </blockquote>

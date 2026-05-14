@@ -7,9 +7,10 @@ function Type() {
       options={{
         strings: [
           "Full-Stack Engineer",
-          "Building with React, Next.js & TypeScript",
-          "API-driven systems with Node.js & AWS",
-          "Performance-focused, scalable UI",
+          "Building AI-Powered Products",
+          "React, Vue, TypeScript, Node.js",
+          "Claude API & LLM Integrations",
+          "Remote-Ready, Brisbane Based",
         ],
         autoStart: true,
         loop: true,

@@ -12,53 +12,36 @@ function Projects() {
           Recent <strong className="purple">Projects</strong>
         </h1>
         <p style={{ color: "white" }}>
-          A curated set of builds highlighting frontend craft, full-stack delivery, and performance work.
+          A curated set of builds highlighting frontend craft, full-stack
+          delivery, and performance work.
         </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              title="Noteflix — Document → Video"
-              description="Converts documents into narrated videos via an async media pipeline. Built for scalable throughput with background processing and AWS storage."
-              ghLink="https://github.com/sandhukaran28/Noteflix-App" // replace with repo if public
+              title="NoteFlix — PDF to Video Platform"
+              description="Converts PDFs into videos with AI scripting, narration, and synchronized document visuals. Built on an async AWS Lambda pipeline with job tracking, retries, and progress updates for reliable processing at scale."
+              ghLink="https://github.com/sandhukaran28/Noteflix-App"
               demoLink="https://noteflix-app.vercel.app/"
-              tags={["Next.js", "Node.js", "AWS"]}
+              tags={["Next.js", "Node.js", "MongoDB", "AWS Lambda", "LLM"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              title="CisoZen — Risk Automation"
-              description="Automated milestone-based cybersecurity risk workflows (evaluate → register) with reliable orchestration, validation, and REST integrations."
+              title="CisoZen — AI Risk Analysis"
+              description="Python-based pipeline integrating LLMs to analyse unstructured compliance data and generate structured cybersecurity risk records. Includes validation, logging, and error handling for audit requirements."
               ghLink="https://github.com/sandhukaran28/Cisozen-AI"
-              tags={["Python", "Node.js", "REST"]}
+              tags={["Python", "LLM", "Claude API", "REST"]}
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              title="EventHive — Web + Mobile"
-              description="Event management platform with auth, bookings, admin dashboard, and reusable UI components. Shared backend across web + React Native app."
-              ghLink="https://github.com/sandhukaran28/EventHive-frontend"
-              tags={["React", "Next.js", "React Native", "Node.js"]}
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              title="Flood Alert — Real-Time Monitoring"
-              description="Realtime monitoring dashboard with map overlays and sensor APIs for situational awareness and clear risk visualisation."
+              title="BeFIQR — Government Flood Management"
+              description="Real-time flood monitoring system built for the Bihar State Government. Captures live water data from dams and embankments, generates flood alerts, and triggers emergency communications. Showcased at India Water Week 2024."
               demoLink="https://www.befiqr.in/app/"
-              tags={["React", "Node.js", "MongoDB"]}
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              title="Grabhub — Food Order App"
-              description="Food ordering app with cart, auth, menu browsing, and admin workflows. Built end-to-end with clean full-stack patterns."
-              ghLink="https://github.com/sandhukaran28/Grabhub"
-              tags={["React", "Node/Express", "MongoDB"]}
+              tags={["React", "React Native", "Node.js", "MongoDB"]}
             />
           </Col>
         </Row>

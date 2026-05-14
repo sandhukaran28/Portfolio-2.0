@@ -8,6 +8,8 @@ import {
   SiGithub,
   SiFigma,
   SiNotion,
+  SiDocker,
+  SiGithubcopilot,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -35,6 +37,15 @@ function Toolstack() {
       {/* Deployment */}
       <Col xs={4} md={2} className="tech-icons" aria-label="Vercel">
         <SiVercel />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Docker">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Slack">
+        <SiSlack />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons" aria-label="Notion">
+        <SiNotion />
       </Col>
     </Row>
   );

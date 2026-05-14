@@ -15,6 +15,9 @@ import {
   SiAwsamplify,
   SiDocker,
   SiPostgresql,
+  SiVuedotjs,
+  SiAngular,
+  SiRedux,
 } from "react-icons/si";
 
 function Techstack() {
@@ -35,12 +38,23 @@ function Techstack() {
         <Col xs={4} md={2} className="tech-icons" aria-label="TypeScript">
           <SiTypescript />
         </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Vue.js">
+          <SiVuedotjs />
+        </Col>
         <Col xs={4} md={2} className="tech-icons" aria-label="React">
           <DiReact />
+        </Col>
+
+        <Col xs={4} md={2} className="tech-icons" aria-label="Angular">
+          <SiAngular />
+        </Col>
+        <Col xs={4} md={2} className="tech-icons" aria-label="Redux">
+          <SiRedux />
         </Col>
         <Col xs={4} md={2} className="tech-icons" aria-label="Next.js">
           <SiNextdotjs />
         </Col>
+
         <Col xs={4} md={2} className="tech-icons" aria-label="Node.js">
           <DiNodejs />
         </Col>
