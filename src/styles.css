@@ -291,6 +291,51 @@ button {
   background: rgba(0, 0, 0, 0.05);
   color: var(--ink);
 }
+.nav-toggle {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  margin-right: -8px;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+.nav-toggle span {
+  position: absolute;
+  left: 11px;
+  right: 11px;
+  height: 1.5px;
+  border-radius: 2px;
+  background: var(--ink);
+  transition: transform 0.35s var(--ease);
+}
+.nav-toggle span:first-child {
+  transform: translateY(-4px);
+}
+.nav-toggle span:last-child {
+  transform: translateY(4px);
+}
+.nav-toggle.is-open span:first-child {
+  transform: rotate(45deg);
+}
+.nav-toggle.is-open span:last-child {
+  transform: rotate(-45deg);
+}
+.mobile-menu {
+  padding-block: 8px 24px;
+}
+.mobile-menu a {
+  display: block;
+  padding: 14px 0;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  border-bottom: 1px solid var(--line);
+}
+.mobile-menu li:last-child a {
+  border-bottom: 0;
+}
 
 /* ---------- Hero ---------- */
 .hero {
@@ -585,6 +630,7 @@ button {
   position: sticky;
   top: 0;
   height: 100vh;
+  height: 100svh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1158,6 +1204,12 @@ button {
   .nav-links,
   .pill-extra {
     display: none;
+  }
+  .nav-inner {
+    gap: 12px;
+  }
+  .nav-toggle {
+    display: block;
   }
   .bento,
   .edu-grid,
